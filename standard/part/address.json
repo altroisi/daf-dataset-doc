@@ -7,6 +7,7 @@
         "identifier": "", // id ANNCSU
         "fullAddress": "Via Manzoni, 10/A - 00100 Roma RM", // i18n?
         "city": "Roma", // vocabolario controllato 
+        "province": "",
         "addressArea": "", // frazione
         "postalCode": "00100",
         "street": "Via Manzoni",

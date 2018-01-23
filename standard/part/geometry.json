@@ -1,0 +1,13 @@
+/* 
+ * frammento json per geometrie
+ */
+{
+    "geometry": {
+        "description": {"def": "", "ita": "", "eng": ""},
+        "geographicPositionMethod": "Satellite data georeferentiation",
+        "refSystem": "WGS84",
+        "geometryType": "Point/Polygon",
+        "point": {"lat": "41.906784", "lon": "12.504962", "alt": "100"},
+        "polygon": [{"lat": "41.906784", "lon": "12.504962", "alt": ""}]
+    }
+}

@@ -17,56 +17,33 @@
     },
     "accomodationFacilities": [
         {
-            // proprietà da point of interest
             "name": "",
             "description": {"def": "", "ita": ""},
             "identifier": "",
-
-            // da address ontology
             "address": {
-                "fulladdress": "",
-                "country": "",
-                "region": "",
-                "province": "",
-                "city": "",
-                "addressArea": "",
-                "postalCode": "",
-                "street": "",
-                "streetNumber": {
-                    "civico": "",
-                    "metric": "",
-                    "peculiarity": ""
-                },
-                "internalAddressNumber": {
-                    "staircase": "",
-                    "flatNumber": "",
-                    "building": "",
-                    "floor": "",
-                    "yard": ""
-                },
-                "location": {
-                    "validity": "",
-                    "modified": "",
-                    "identifier": {
-                        "identifierType": "",
-                        "issuedBy": "",
-                        "identifier": ""
-                    },
-                    "geometry": {
-                        "lat": "",
-                        "long": "",
-                        "alt": "",
-                        "geographicPositionMethod": "Satellite data georeferentiation",
-                        "geometryType": "Point",
-                        "ref_system": "WGS84" // non presente nell'ontologia
-                    }
-                }
+                // vedi address.json
+            },
+            "contactPoint": {
+                // vedi contact.json
+            },
+            "checkin": {
+                // vedi timeInterval.json
+            },
+            "checkout": {
+                // vedi timeInterval.json
             },
 
             "accomodationCode": "",
+            "accomodationTipology": "", // vocabolario controllato
+            "accomodationStarRatingLabel": "",
+            "accomodationStarRatingID": "",
             "totalRooms": "",
             "totalBeds": "",
             "totalToilets": "",
+
+
+            // lasciare le proprietà seguenti?
+            
             "owner": "", // organization
             "offer": "",
             "offeredServiceDescription": { // ??
@@ -88,31 +65,8 @@
                     "type": "" // bedroom (double, quadruple, single, suite, triple), meetingroom
                 }
             ],
-            "checkin": "",
-            "checkout": "",
-            "includedInAccomodation": "",
-            "accomodationTipology": "", // vocabolario controllato
-            "accomodationClassification": {
-                "accomodationStarRatingLabel": "",
-                "accomodationStarRatingID": ""
-            },
-
-            // social media ontology
-            "onlineContactPoint": {
-                "emailAddresses": [
-                    {
-                        "email": "",
-                        "emailType": "" // channel controlled vocabulary: 041 (PEC) e 042 (email)
-                    }
-                ],
-                "webSite": "",
-                "socialMediaAccounts": [
-                    {
-                        "socialMedia": "",
-                        "accountName": ""
-                    }
-                ]
-            }
+            "includedInAccomodation": ""
+            
         }
     ]
 }

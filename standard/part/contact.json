@@ -1,0 +1,23 @@
+/* 
+ * frammento json per i contatti
+ */
+ {
+    "contact": {
+        "description": {"def": "", "ita": "", "eng": ""},
+        "telephone": ["+390604989"],
+        "fax": ["+39060445763"],
+        "emailAddresses": [
+            {
+                "email": "rossi@email.it",
+                "emailType": "email" // channel controlled vocabulary: 041 (PEC) e 042 (email)
+            }
+        ],
+        "webSite": "",
+        "socialMediaAccounts": [
+            {
+                "socialMedia": "",
+                "accountName": ""
+            }
+        ]
+    }
+}

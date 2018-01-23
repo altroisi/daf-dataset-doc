@@ -1,0 +1,12 @@
+/* 
+ * frammento json per biglietti/offerte
+ */
+{     
+    "ticket": {
+        "description": {"def": "offerta base per minorenni", "ita": "offerta base per minorenni"},
+        "validity": "", // vedi time fragment
+        "priceValue": "5",
+        "priceCurrency": "EUR", // vocabolario controllato http://publications.europa.eu/resource/authority/currency basato su ISO 4217
+        "eligibleUser": {"def": "Persone con età inferiore ai 18 anni", "ita": "Persone con età inferiore ai 18 anni"}
+    }
+}

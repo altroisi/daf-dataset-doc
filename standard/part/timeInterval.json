@@ -1,0 +1,17 @@
+/* 
+ * frammento json per intervalli temporali
+ *
+ */
+{
+    "interval": {
+        "description": {"def": "", "ita": "", "eng": ""},
+        "duration": "3 giorni",
+        "year": "",
+        "monthOfYear": "",
+        "dayOfWeek": "",
+        "startDate": "",
+        "endDate": "",
+        "startTime": "",
+        "endTime": ""
+    }
+}

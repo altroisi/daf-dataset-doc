@@ -1,3 +1,13 @@
+/* 
+ * per i nomi e le descrizioni si utilizzano mappe le cui proprietà opzionali sono i codice lingue
+ * secondo lo standard ISO 693-3:2007, in aggiunta alla proprietà obbligatoria "def" (default)
+ * ita - italiano
+ * eng - ladino
+ * fra - francese
+ * deu - tedesco
+ * spa - spagnolo
+ * lad - ladino
+ */
 {
     "metadata": {
         "refDate": "2017-12-21T14:05:04",
@@ -6,154 +16,59 @@
     },
     "culturalInstitutesOrSites": [
         {
-            "institutionalName": [{"language": "it", "value": "Biblioteca nazionale centrale"}],
-            "description": [{"language": "it", "value": ""}],
+            "institutionalName": {"def": "Biblioteca nazionale centrale", "ita": "Biblioteca nazionale centrale", "eng": ""},
+            "description": {"def": "", "ita": "", "eng": ""},
             "ISILIdentifier": "",
             "type": "Area Archeologica/Museo/Teatro/ecc", // vocabolario controllato?
             "disciplines": ["arte contemporanea/storia antica/etnografia/ecc"], // vocabolario controllato?
             "sites": [
                 {
-                    "name": [{"language": "it", "description": "Sede di: Biblioteca nazionale centrale di Roma"}],
-                    "siteDescription": {
-                        "description": [
-                            {"language": "it", "value": "La libreria 1000 metri di scaffalature"},
-                            {"language": "en", "value": "The Library has 1000 meters of shelves"}],
-                        "attributes": [
-                            {
-                                "name": [
-                                    {"language": "it", "value": "Scaffalature"}, 
-                                    {"language": "en", "value": "Shelving"}],
-                                "description": [
-                                    {"language": "it", "value": "La dimensione di uno scaffale in metri lineari (es. 3 metri)"},
-                                    {"language": "en", "value": "The linear dimension of a shelf unit (e.g. 3 meters)"}]
-                            }
-                        ]
-                    },
-                    "geographicalLocation": {
-                        "toponym": "Roma",
-                        "istatCode": "", // in caso di area amministrativa statale
-                        "identifier": "", // in caso di area amministrativa ecclesiastica
-                        "geometry": {
-                            "geoMethodology": "Satellite data georeferentiation",
-                            "geometryType": "Point",
-                            "ref_system": "WGS84", // non presente nell'ontologia
-                            "lat": "41.906784",
-                            "lon": "12.504962"
-                        }
-                    },
-                    "description": [{"language": "it", "value": ""}],
+                    "name": {"def": "Sede di: Biblioteca nazionale centrale di Roma", "ita": "Sede di: Biblioteca nazionale centrale di Roma", "eng": ""},
+                    "description": {"def": "", "ita": "", "eng": ""},
                     "address": {
-                        "addressId": "IT-RM0267_IT_1",
-                        "adminUnitL2": [{"language": "it", "value": "Lazio"}],
-                        "adminUnitL1": [{"language": "it", "value": "Roma"}],
-                        "postName": [{"language": "it", "value": "Roma"}],
-                        "postCode": "00185",
-                        "fullAddress": [{"language": "it", "value": "Viale Castro Pretorio 105 - 00185 - Roma (RM)"}]
+                        // vedi address.json
                     },
-                    "contactPoint": [
-                        {} // vedi contatti
-                    ],
-                    "geometry": {
-                        // vedi geographicalLocation.geometry
-                    }
-                }
-            ],
-            "contactPoints": [
-                {
-                    "contactPointType": "turistico/amministrativo/...",
-                    "telephone": "+390649891",
-                    "fax": "+39064457635",
-                    "email": "bnc-rm@beniculturali.it",
-                    "certifiedEmail": "mbac-bnc-rm@mailcert.beniculturali.it",
-                    "webSite": "",
+                    "contactPoint": {
+                        // vedi contact.json
+                    },
                     "available": [
                         {
-                            "dayOfWeek": "Giovedì", // vocabolario controllato?
-                            "opens": "09:00:00",
-                            "closes": "19:00:00",
-                            "admissionType": "Giornaliera", // vocabolario controllato?
-                            "description": [{"language": "it", "value": ""}]
+                            // vedi timeInterval.json
                         }
                     ]
                 }
             ],
-            "namesInTime": [
-                {
-                    "institutionalName": [{"language": "it", "value": ""}],
-                    "altLabel": [{"language": "it", "value": ""}],
-                    "validDuring": {
-                        "startDate": "",
-                        "endDate": ""
-                    }
-                }
-            ],
+            "contactPoint": {
+                // vedi contact.json
+            },
             "services": [
                 {
-                    "name": [{"language": "it", "value": ""}],
-                    "description": [{"language": "it", "value": ""}],
-                    "contactPoints": [
-                        {} // vedi contatti
-                    ]
+                    "name": {"def": "", "ita": "", "eng": ""},
+                    "description": {"def": "", "ita": "", "eng": ""},
+                    "contactPoint": {
+                        // vedi contact.json
+                    }
                 }
-            ],
-            "rolesInTime": [
-                {
-                    "role": "Direttore",
-                    "name": "Andrea De Pasquale",
-                    "startDate": "2013-01-01",
-                    "endDate": "2016-12-31"
-                }
-            ],
-            "projects": [
-                {
-                    "name": [{"language": "it", "value": ""}],
-                    "webSite": ""
-                }
-            ],
-            "equipments": [{"language": "it", "value": ""}],
-            "catalogues": "", // includere?
-            "collections": "", // includere?
+            ],            
             "accessCondition": {
-                "openingHoursSpecifications": [ // vedi contatti.disponibilità e sedi.contatti.disponibilita
+                "openingHoursSpecifications": [
                     {
-                        "dayOfWeek": "Giovedì", // vocabolario controllato?
-                        "opens": "09:00:00",
-                        "closes": "19:00:00",
-                        "admissionType": "Giornaliera", // vocabolario controllato?
-                        "description": [{"language": "it", "value": ""}]
+                        // vedi timeInterval.json
                     }
                 ],
                 "temporaryClosures": [
                     {
-                        "date": ["2015-01-19", "2015-01-20", "2015-01-21"],
-                        "description": [{"language": "it", "value": "Dal 19-01-2015 al 21-01-2015 la Biblioteca Nazionale centrale chiude per restauro"}],
-                        "reason": [{"language": "it", "value": "Restauro"}]
+                        // vedi timeInterval.json
                     }
                 ],
                 "bookings": {
-                    "name": [{"language": "it", "value": "obbligatoria/facoltativa/nessuna"}],
-                    "description": [{"language": "it", "value": ""}]
+                    "name": {"def": "obbligatoria/facoltativa/nessuna", "ita": "", "eng": ""},
+                    "description": {"def": "", "ita": "", "eng": ""}
                 }
             },
-            "offers": [
+            "tickets": [
                 {
-                    "eligibleUser": {
-                        "name": "Under 18",
-                        "description": [{"language": "it", "value": "Persone con età inferiore ai 18 anni"}]
-                    },
-                    "priceSpecification": {
-                        "currencyValue": "5",
-                        "currency": "Euro"
-                    },
-                    "validity": "",
-                    "description": [{"language": "it", "value": "offerta base per minorenni"}]
-                }
-            ],
-            "partOf": [""], // parte di altro luogo: individuare identificativo?
-            "creativeWorks": [
-                {
-                    "type": "newsArticles/videoObject/imageObject/audioObject", // vocabolario controllato?
-                    "url": ""
+                    // vedi ticket.json
                 }
             ]
         }

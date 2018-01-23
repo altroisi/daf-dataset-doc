@@ -1,0 +1,18 @@
+/* 
+ * frammento json per gli indirizzi
+ */
+{
+    "address": {
+        "description": {"def": "", "ita": "", "eng": ""},
+        "identifier": "", // id ANNCSU
+        "fullAddress": "Via Manzoni, 10/A - 00100 Roma RM", // i18n?
+        "city": "Roma", // vocabolario controllato 
+        "addressArea": "", // frazione
+        "postalCode": "00100",
+        "street": "Via Manzoni",
+        "streetNumber": "10/A",
+        "location": {
+            // vedi geometry
+        }
+    }
+}

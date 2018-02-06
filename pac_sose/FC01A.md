@@ -36,7 +36,7 @@
 | IND9 |  | Autorizzazioni presentate per 1.000 abitanti(numero)
 | IND10 |  | Ore di apertura settimanale al pubblico(h)
 | IND11 |  | Velocita' di riscossione delle imposte locali(%)
-| LQP_COD_1 |  | Differenza tra spesa storica e fabbisogno standard in % rispetto al fabbisogno standard |
+| LQP_COD_1 |  | differenza tra fabbisogno standard e capacità fiscale |
 | LQP_COD_2 |  | Differenza tra livello dei servizi storico e livello dei servizi standard in % rispetto al livello dei servizi standard |
 | LQP_COD_3 |  | Flag Comune non valutabile |
 | LQP_COD_4 |  | Flag percentile anomalo (differenza % minore del 5^ percentile o maggiore del 95^ percentile) |
